@@ -58,7 +58,7 @@ $ sudo pip install obfsproxy
 $ sudo nano /etc/tor/torrc
 ```
 <p lang="fa" dir="rtl" align="right">موارد زیر رو به انتهای فایل اضافه کنید
-با کنترل + c و انتخاب y می‌تونید تغییرات رو ذخیره کنید</p>
+با کنترل + x و انتخاب y می‌تونید تغییرات رو ذخیره کنید</p>
 ```bash
 SocksPort 1080
 SocksListenAddress 127.0.0.1
@@ -102,7 +102,7 @@ $ sudo nano /etc/stunnel.conf
  accept=1080
  connect=serverAdress:serverPort
  ```
-<p lang="fa" dir="rtl" align="right">با کنترل + c و انتخاب y ذخیرش کنید.<br>به مسیر زیر برید و ENABLED برابر 1 کنید.</p>
+<p lang="fa" dir="rtl" align="right">با کنترل + x و انتخاب y ذخیرش کنید.<br>به مسیر زیر برید و ENABLED برابر 1 کنید.</p>
 ```bash
 $ sudo nano /etc/default/stunnel4
 ```
@@ -165,7 +165,7 @@ socksProxyType = socks5
 ```bash
 $ sudo nano /etc/polipo/config
 ```
-<p lang="fa" dir="rtl" align="right">اضافه کنید با کنترل + c و انتخاب y تغییرات رو ذخیره کنید و بعدش Polipo رو ری‌استارت کنید</p>
+<p lang="fa" dir="rtl" align="right">اضافه کنید با کنترل + x و انتخاب y تغییرات رو ذخیره کنید و بعدش Polipo رو ری‌استارت کنید</p>
 ```bash
 $ sudo service polipo restart
 ```
