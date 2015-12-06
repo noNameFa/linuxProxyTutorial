@@ -126,12 +126,12 @@ $ sudo openvpn filename
 <p lang="fa" dir="rtl" align="right">اگر دقیقا مثل تنظیماتی که نشون دادیم جلو رفته باشید با هر کدوم از روش‌ها یه تونل از نوع socks5 رو پورت 1080 و آی‌پی سیتمتون 127.0.0.1 دارید.<br>حالا باید هر چیزی رو که می‌خواید از توی این تونل رد کنید.
 خود سیستم عامل تو قسمت نتورک تنظیماتی برای پراکسی داره ولی من ازش خوشم نمیاد و فکر کنم بعضی از برنامه‌ها به اون تنظیمات کاری ندارند.<br>روش‌های بهتری هم هست</p>
 <h2 lang="fa" dir="rtl" align="right">فایرفاکس</h2>
-<p lang="fa" dir="rtl" align="right"><a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/</a><br>foxyproxy یه پلاگین برای فایرفکس و  فکر کنم کروم هست که می‌تونید خیلی راحت و دم دستی تنظیمات پراکسی رو توش تغییر بدید.<br>پلاگین رو نصب کنید، add new proxy رو بزنید، ip رو 127.0.0.1 و پورت 1080  بزارید، نوع پراکسی رو socks5 انتخاب کنید و ذخیره کنید.<br>از قسمت مود پراکسی‌ای که ساختید رو فعال کنید.</p>
+<p lang="fa" dir="rtl" align="right"><a href="https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/">https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard</a><br>foxyproxy یه پلاگین برای فایرفکس و  فکر کنم کروم هست که می‌تونید خیلی راحت و دم دستی تنظیمات پراکسی رو توش تغییر بدید.<br>پلاگین رو نصب کنید، add new proxy رو بزنید، ip رو 127.0.0.1 و پورت 1080  بزارید، نوع پراکسی رو socks5 انتخاب کنید و ذخیره کنید.<br>از قسمت مود پراکسی‌ای که ساختید رو فعال کنید.</p>
 <p lang="fa" dir="rtl" align="right">نکته:‌بدون این پلاگین هم میشه از تنظیمات فایرفکس پراکسی رو تغییر داد ولی این دم دسته</p>
 <p lang="fa" dir="rtl" align="right">می‌تونید تنظیمات دیگه‌ای هم بهش اضافه کنید مثلا aparat.com رو از پراکسی رد نکنه تا سرعت بالاتری داشته باشه</p>
 
 <h2 lang="fa" dir="rtl" align="right">کروم</h2>
-<p lang="fa" dir="rtl" align="right"><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en">https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif?hl=en</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. پروتکل رو socks5 انتخاب کنید. سرور 127.0.0.1 و پورت 1080 باشه در انتها هم apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیمات دیگه‌ای هم داره مثلا بزنید تمام سایت‌هایی که با ir تموم میشند بدون پراکسی باشند.</p>
+<p lang="fa" dir="rtl" align="right"><a href="https://github.com/FelisCatus/SwitchyOmega/releases">https://github.com/FelisCatus/SwitchyOmega/releases</a><br>اکستنشنی هست به نام SwitchyOmega که می‌تونه تنظیمات پراکسی کروم رو باهاش دست کاری کرد. نصبش کنید.<br>کنار آدرس بار آیکنش اضافه می‌شه از option گزینه new profile رو انتخاب کنید، یه اسم براش وارد کنید و گزینه proxy profile رو بزنید. پروتکل رو socks5 انتخاب کنید. سرور 127.0.0.1 و پورت 1080 باشه در انتها هم apply change رو بزنید.<br>هر وقت خواستید می‌تونید با کلیک رو آیکنش به راحتی ارتباط رو مستقیم کنید یا از پراکسی رد کنید.<br>تنظیمات دیگه‌ای هم داره مثلا بزنید تمام سایت‌هایی که با ir تموم میشند بدون پراکسی باشند.</p>
 
 
 <h2 lang="fa" dir="rtl" align="right">ترمینال</h2>
@@ -174,5 +174,5 @@ $ sudo service polipo restart
 <h2 lang="fa" dir="rtl" align="right">و در آخر</h2>
 <p lang="fa" dir="rtl" align="right">
 <p lang="fa" dir="rtl" align="right">اگر جایی نا واضح هست بگید با افزودن عکس یا توضیحات دقیق‌تر بهترش کنیم.<br>اگر چیزی کار نکرد ارور رو به دقت مطالعه کنید سعی کنید برطف کنید، نشد سرچ، نشد کمکتون می‌کنیم.</p>
-<p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0/</a>
+<p><a href="http://creativecommons.org/licenses/by-sa/3.0/">http://creativecommons.org/licenses/by-sa/3.0</a>
 
